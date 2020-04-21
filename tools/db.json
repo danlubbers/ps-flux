@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "title": "React: The Big Picture",
+      "title": "React: The Big Picturej",
       "slug": "react-big-picture",
       "authorId": 1,
       "category": "JavaScript"
@@ -65,26 +65,18 @@
     },
     {
       "id": 10,
-      "title": "Web Component Fundamentals BULLSHIT",
+      "title": "Web Component Fundamentals",
       "slug": "web-components-shadow-dom",
       "authorId": 1,
       "category": "HTML5"
     },
     {
       "id": 11,
-      "slug": "grafton-peace-pagoda",
-      "title": "Grafton Peace Pagoda",
+      "slug": "cristina",
+      "title": "Cristina",
       "authorId": 2,
-      "category": "Meditation",
-      "createdAt": 1587421205512
-    },
-    {
-      "id": 12,
-      "slug": "grafton-peace-pagoda",
-      "title": "Grafton Peace Pagoda",
-      "authorId": 2,
-      "category": "Meditation",
-      "createdAt": 1587422388250
+      "category": "Capricorn",
+      "createdAt": 1587434957272
     }
   ],
   "authors": [

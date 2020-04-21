@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
       <table className='table'>
           <thead>
             <tr>
+              <th>&nbsp;</th>
               <th>Title</th>
               <th>Author's ID</th>
               <th>Category</th>
@@ -18,6 +19,10 @@ import { Link } from 'react-router-dom';
             {props.courses.map(e => {
               return (
                 <tr key={e.id}>
+                  <td><button className='btn btn-outline-danger' onClick={() => {
+                     debugger;
+                     props.delete(e.id)}
+                     }>Delete</button></td>
                   <td><Link to={`/course/${e.slug}`}>{e.title}</Link></td>
                   <td>{e.authorId}</td>
                   <td>{e.category}</td>
@@ -31,6 +36,7 @@ import { Link } from 'react-router-dom';
 }
 
 CourseList.propTypes = {
+  delete: PropTypes.func.isRequired,
   courses: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.number.isRequired,
