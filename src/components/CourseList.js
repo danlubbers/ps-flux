@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom';
               return (
                 <tr key={e.id}>
                   <td><button className='btn btn-outline-danger' onClick={() => {
-                     debugger;
+                    //  debugger;
                      props.delete(e.id)}
                      }>Delete</button></td>
                   <td><Link to={`/course/${e.slug}`}>{e.title}</Link></td>
